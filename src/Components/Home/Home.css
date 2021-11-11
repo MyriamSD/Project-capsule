@@ -1,0 +1,234 @@
+.project-capsule-logo {
+    text-align: center;
+    width: 75%;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    /* position: fixed; */
+    
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    /* margin-left: 150px; */
+    /* margin-right: 150px; */
+    width:100%
+}
+
+.list section {
+    border-bottom: 1px solid black;
+}
+
+.list p {
+    margin-left: 200px;
+    font-family: "ManukaL";
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.list button {
+    border-radius: 25%;
+    border-color: burlywood;
+    width: 90px;
+    height: 70px;
+    font-family: 'Domaine';
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-top: 0;
+    position: relative;
+    top: -20px;
+    left: 450px;
+
+    
+}
+
+#number {
+    width: 200px;
+    margin-bottom: 0px;
+    margin-top: 300px;
+    margin-right: 700px;
+    -ms-flex-align:start;
+}
+
+.stepone {
+    position: relative;
+    font-size: 50px;
+    top: -210px;
+    right: 100px;
+}
+
+.steptwo {
+    position: relative;
+    font-size: 50px;
+    bottom: 190px;
+    right: 20px;
+}
+
+.stepthree {
+    position: relative;
+    font-size: 40px;
+    bottom: 210px;
+    right: -10px;
+}
+
+.stepfour {
+    position: relative;
+    bottom: 190px;
+    font-size: 80px;
+    right: -0px;
+    font-size: 30px;
+}
+
+.content {
+    background-color: #c48962;
+    height: 1950px ;
+    margin-top: -10%;
+    margin-left: 0px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 0px;
+    
+}
+
+.Opening-question {
+    font-family: "Noto";
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 230px;
+    z-index: 4;
+    
+}
+
+.first-dialogue {
+    font-family: 'Zen';
+    font-size: 20px;
+}
+
+.first-dialogue-ending {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #ebd9c8;
+    padding: 10px;
+    font-weight: 650;
+}
+
+.sustainability {
+    width: 30%;
+    display: block;
+    padding-top: 200px;
+    padding-right: 20px;
+    padding-left: 35px;
+}
+
+.affordability {
+    width: 30%;
+    display: block;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 35px;
+
+}
+
+.freedom {
+    width: 30%;
+    display: block;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 35px;
+}
+
+.what-is {
+    background-color: #ebd9c8;
+    margin-top: 100px;
+    width: 780px;
+    height: 1400px;
+    /* margin-top: 900px; */
+    margin-right: 0;
+    /* float: right; */
+    /* display: flex;
+    flex-direction: column; */
+    position: absolute;
+    top: 1650px;
+    left: 400px;
+    box-shadow: 0px 1px 5px rgb(190 190 190 / 24%);
+    
+}
+
+.closure {
+    background-color: #ebd9c8;
+    height: 18 00px ;
+    margin-top: 0%;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.Second-question {
+
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 50px;
+    text-decoration: underline;
+
+}
+
+.second-dialogue {
+
+    font-family: "calibre";
+    font-size: 40px;
+
+}
+
+.third-dialogue {
+
+    font-family: "calibre";
+    font-size: 35px;
+    margin-top: 70px;
+
+}
+
+.fourth-dialogue {
+
+    font-family: "PlayItalic";
+    font-size: 23px;
+    margin-top: 60px;
+
+
+}
+
+.decor1 {
+    width: 30%;
+    padding: 10px;
+    padding-top: 120px;
+}
+
+.decor2 {
+    width: 30%;
+    padding: 10px;
+    padding-top: 70px;
+    vertical-align: top;
+}
+
+
+.closure-question {
+    font-family: "cmu";
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 230px;
+    z-index: 4;
+}
+
+.under-closure-question {
+    font-family: "cmu";
+    font-size: 20px;
+    
+}
+
+/* @media only screen and (max-width: 2000px) {
+    .home-page-big-logo {
+
+    }
+    
+  } */

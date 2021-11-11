@@ -1,0 +1,151 @@
+.Navbar {
+  background-color: #ebd9c8;
+  width: 100%;
+  top: 0;
+  height: 93px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Zen';
+  color:black;
+  position:fixed;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition:all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  z-index: 2;
+}
+
+/* .Navbar .leftSide :hover{
+  box-shadow: 0px 1px 5px rgb(190 190 190 / 24%);
+ box-shadow: 0px 5px 0px chartreuse;
+  
+} */
+
+.Navbar .rightSide :hover {
+  /* color: #b49b6b; */
+  color: #c48962;
+  /* box-shadow: 0px 5px 0px chartreuse; */
+  /* cursor: pointer; */
+}
+
+
+.logo {
+  border-radius: 4px;
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  z-index: 3;
+  text-decoration: none;
+
+}
+
+.Navbar .leftSide a :hover {
+  border-radius: 4px;
+  width: 50%;
+  border: +2px solid #ddd;
+  padding: 5px;
+  transition-delay: 0.2s;
+
+}
+
+.logo2 {
+  border-radius: 4px;
+  width: 24%;
+  max-width: 25%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  z-index: 3;
+
+}
+
+/* .logo2 :hover {
+  border-radius: 4px;
+  width: 30%;
+  border: +2px solid #ddd;
+  padding: 5px;
+  transition-delay: 0.1s; */
+
+
+.Navbar .leftSide {
+  display: flex;
+  flex: 20%;
+  justify-content: left;
+  max-height: 80px;
+
+}
+
+.Navbar .rightSide {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 25px;
+  max-height: 80px;
+
+}
+
+.Navbar .rightSide a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  margin-left: 20px;
+  padding-left: 105px;
+}
+
+
+
+.Navbar .rightSide button {
+  display: none;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.Navbar .rightSide #hidden {
+  position: absolute;
+  justify-content: right;
+  left: 0px;
+  top: 80px;
+  height: 200px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 230px;
+  justify-content: right;
+}
+
+.Navbar .rightSide #hidden a {
+  display: flex;
+  flex: 20%;
+  justify-content: center;
+  width: 100%;
+  text-align: right;
+  margin: 10px;
+  font-size: 20px;
+  /* margin-right: 200px; */
+  /* padding-right: 0px; */
+}
+
+@media only screen and (max-width: 2000px) {
+  .Navbar .rightSide a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .Navbar .rightSide a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .Navbar .rightSide button {
+    display: flex;
+  }
+
+  .Navbar .rightSide .links {
+    display: none;
+  }
+}

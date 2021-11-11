@@ -1,0 +1,65 @@
+.TipsOpen {
+    margin-top: 25%;
+    padding-top: 100px;
+    background-color: #ebd9c8;
+    width: 100%;
+    font-Family: 'Calibre';
+    padding: 61px 0 59px 0;
+    clip-path: polygon(0% 0%, 100% 15%, 100% 87%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 15%, 100% 87%, 0% 100%); 
+}
+
+.TipsNext {
+    font-size: 20px;
+    font-Family: 'Calibre';
+    margin-bottom: 100px;
+}
+
+.TipsOpen2 {
+    margin-top: 25%;
+    padding-top: 100px;
+    font-Family: 'Calibre';
+    background-color: #ebd9c8;
+    width: 100%;
+    padding: 61px 0 59px 0;
+    /* clip-path: polygon(100% 0%, 100% 87%, 100% 15%, 0% 0%);
+    -webkit-clip-path: polygon(0% 0%, 100% 15%, 100% 87%, 0% 100%);  */
+}
+
+.TipsOpen3 {
+    margin-top: 15%;
+    padding-top: 100px;
+    font-Family: 'Calibre';
+    background-color: #ebd9c8;
+    width: 100%;
+    padding: 61px 0 59px 0;
+    clip-path: polygon(0% 0%, 100% 15%, 100% 87%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 15%, 100% 87%, 0% 100%); 
+}
+
+.TipsOpen h2 {
+    font-size: 30px;
+}
+
+.TipsOpen2 h2 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.TipsOpen3 h2 {
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.TipsOpen2 ul {
+    font-size: 20px;
+}
+
+.TipsOpen3 ul {
+    font-size: 20px;
+}
+
+.theend {
+    margin-top: 200px;
+}

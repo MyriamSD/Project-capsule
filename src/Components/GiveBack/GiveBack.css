@@ -1,0 +1,227 @@
+.giveback {
+	background: linear-gradient(
+    rgba(182, 197, 198, 0.3),
+    rgba(231, 249, 250, 0.3)
+    ), url('../Images/annie-spratt-unsplash.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: static;
+}
+
+#homescreen {
+    padding-top: 5px;
+    height: 100%;
+    font-family: 'Nothing You Could Do', cursive;
+    background: linear-gradient(
+    rgba(182, 197, 198, 0.3),
+    rgba(231, 249, 250, 0.3)
+    ), url('../Images/stack.png');
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .main-title, .main-title2 {
+    text-decoration: none;
+    color: rgb(86, 117, 120);
+    margin-top: 3vw;
+    margin-bottom: 0;
+  }
+  
+  .main-title2 {
+    font-size: 20px;
+  }
+  
+  .main-title {
+    padding-top: 2vh;
+    font-size: 50px;
+    font-family: 'Cutive Mono', monospace;
+  }
+  
+  .hanger-button {
+    position: fixed;
+    bottom: 4vh;
+    left: 8vw;
+    width: 10vw;
+    opacity: 0.7;
+  }
+  
+  .credit-stack {
+    color: rgb(163, 178, 179);
+    position: fixed;
+    bottom: 1vh;
+    right: 5vw;
+    font-size: .5rem;
+  }
+  
+  .credit-shelves {
+    display: none;
+    position: fixed;
+    bottom: 2vh;
+    left: 35vw;
+  }
+  
+  .credit-clothes-rack {
+    display: none;
+    position: fixed;
+    bottom: 2vh;
+    left: 35vw;
+  }
+  
+  #store-card {
+    border: 1px solid rgb(148, 160, 160);
+    background:rgba(86, 114, 106, 0.3);
+    margin: 10px 22px 22px 22px;
+    padding: 10px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    color: rgb(86, 117, 120);
+    box-shadow: 3px 6px rgb(189, 184, 184);
+  }
+  
+  #store-name {
+    font-size: 20px;
+    color: rgb(78, 107, 109);
+  }
+  
+  #store-pic {
+    width: 86vw;
+  }
+  
+  #address {
+    font-size: 18px;
+  }
+  
+  #store-tele {
+    font-size: 18px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .zip-page {
+    height: 100vh;
+    font-size: 27px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  #enter-zip {
+    position: relative;
+    width: 100%;
+    bottom: 30px;
+  }
+  
+  form {
+    padding: 16vh 0 0 6vw;
+  }
+  
+  #search {
+    position: absolute;
+    left: 70px;
+    bottom: -12vh;
+  }
+  
+  .zip-image-shelves {
+    margin-top: 6vh;
+    width: 93%;
+    opacity: 0.8;
+  }
+  
+  .zip-image-rack {
+    display: none;
+  }
+  
+  .zip-input { 
+  height: 30px;
+  width: 170px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  }
+  
+  input {
+    font-family: 'Cutive Mono', monospace;  
+  }
+  
+  #search-button {
+    height: 26px;
+    border:1px solid grey;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    border-radius: 4px;
+    color: rgb(86, 117, 120);
+    margin-left: 10px;
+  }
+  
+  .zipz {
+    font-family: 'Nothing You Could Do', cursive; 
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(86, 117, 120);
+    height: 100vh;
+  }
+  
+  @media screen and (min-width: 1100px) {
+    /* for desktop view */
+  
+    #homescreen {
+      background: linear-gradient(
+      rgba(182, 197, 198, 0.3),
+      rgba(231, 249, 250, 0.3)
+      ), url('../Images/wide-stack.jpg');
+      background-size: cover;
+      min-height: 100vh;
+    }
+  
+    .hanger-button {
+      position: fixed;
+      bottom: 8vh;
+      left: 8vw;
+      width: 12vw;
+    }
+    
+    .zip-image-shelves {
+      display: none;
+    }
+    
+    .zip-page {
+      height: 100%;
+      font-size: 42px;
+      margin-top: 30px;
+      position: relative;
+    }
+    
+    .zip-image-rack {
+      display: block;
+      margin-left: 6%;
+      margin-top: 4vh;
+      padding-top: 8vh;
+      width: 70%;
+      margin: 0 auto;
+    }
+  
+    #enter-zip {
+      position: relative;
+      width: 100%;
+      bottom: -90px;
+    }
+    
+    .credit-stack{
+      color: rgb(49, 68, 70);
+      font-size: 1rem;
+      position: fixed;
+      bottom: 1vh;
+      right: 5vw;
+    }
+    
+    #search {
+      position: absolute; 
+      display: inline-block;
+      left: 35%;
+      bottom: 9px;
+    }
+    
+  }
