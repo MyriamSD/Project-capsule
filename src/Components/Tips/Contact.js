@@ -17,7 +17,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className='contained'>
+    <form ref={form} onSubmit={sendEmail} className='contactcard'>
     <div className='entrnme'>
       <label>Name</label>
       <input type="text" name="user_name" />

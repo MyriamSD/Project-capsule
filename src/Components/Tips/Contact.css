@@ -1,12 +1,12 @@
 
  
   
-  .contained {
-      margin-top: 100px;
+  .contactcard{
+    margin-top: 100px;
     width: 90%;
     height: 300px;
     max-width: 500px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 20px;
     box-shadow: 0px 0px 20px #00000010;
     background-color: #BC8F8F;

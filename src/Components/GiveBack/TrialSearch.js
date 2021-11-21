@@ -93,11 +93,13 @@ class TrialSearch extends React.Component {
                     <div className="results-container">
                         { results.map( result => {
                             return (
-                                <a key={ result.id } href={ result.product_link } className="result-item">
+                                <a key={ result.id } href={ result.url } className="result-item">
                                 <p id="store-name">{result.name}</p>
                                 <img id="store-pic" src={result.image_url} alt="clothes_pic"/>
                                 <h3 id="address">{result.location.address1} <br></br>{result.location.city}, {result.location.zip_code}</h3>
                                 <h6 id="store-tele">{result.display_phone}</h6>
+
+                                <hr/>
                                     
                                     {/* <h6 className="store-name">{result.name}</h6>
                                     <div className="image-wrapper">
