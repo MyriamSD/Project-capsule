@@ -4,11 +4,12 @@
   .contained {
       margin-top: 100px;
     width: 90%;
+    height: 300px;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     box-shadow: 0px 0px 20px #00000010;
-    background-color: white;
+    background-color: #BC8F8F;
     border-radius: 8px;
     margin-bottom: 20px;
   }

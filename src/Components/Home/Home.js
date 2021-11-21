@@ -16,17 +16,16 @@ function Home() {
   }
 
   const handlecardclick = () => {
-    window.open("http://localhost:3000/Tutorial")
-  }
-
-  const handlegiveclick = () => {
-    window.open("http://localhost:3000/GiveBack")
+    window.open("http://localhost:3000/StyleCard")
   }
 
   const handletipclick = () => {
     window.open("http://localhost:3000/Tips")
   }
 
+  const handlegiveclick = () => {
+    window.open("http://localhost:3000/GiveBack")
+  }
   
 
   
