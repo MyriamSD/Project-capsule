@@ -89,7 +89,7 @@ class TrialSearch extends React.Component {
         renderSearchResults = () => {
             const { results } = this.state;
             if ( Object.keys( results ).length && results.length ) {
-                return (
+                return ( 
                     <div className="results-container">
                         { results.map( result => {
                             return (
